@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <strings.h>
-#define MAX 1000
+
 /* Define um novo tipo de dado chamado Pilha que é um ponteiro para "struct pilha". */
 typedef struct node * link;
 
