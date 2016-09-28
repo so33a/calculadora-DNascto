@@ -37,11 +37,11 @@ void push (Pilha p, int valor){
 }
 /* Operação de remover um elemento da pilha */
 int pop (Pilha p) {
-    int valor;
     if(p == NULL){
         printf("Pilha vazia!!!!");
         exit(-1);
     }
+    int valor;
     link n;
 
     n = p->topo;
